@@ -10,11 +10,13 @@ document.addEventListener("DOMContentLoaded", function() {
         const player5Name = document.getElementById("player5").value.trim();
         const player6Name = document.getElementById("player6").value.trim();
 
-        // Validate that at least one player name is provided
-        if (!player1Name || !player2Name || !player3Name || !player4Name || !player5Name || !player6Name) {
-            alert("Please provide names for all players.");
+        // Validate that at least one required player name is provided
+        if (!player1Name && !player2Name) {
+            alert("Please provide names for at least 2 players.");
             return;
         }
+
+        // Optional: Add additional validation if needed for other required fields
 
         // Add player names to localStorage
         localStorage.setItem("player1", player1Name);
