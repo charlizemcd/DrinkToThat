@@ -97,4 +97,7 @@ img {
     text-align: center;
     font-size: 25px;
   }
+  .big-button {
+    font-size: 40px; /* Adjust as needed */
+  }
   
