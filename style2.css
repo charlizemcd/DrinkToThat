@@ -37,4 +37,10 @@ body {
     max-width: 25%;
     height: auto;
   }
+
+.big-button {
+    font-size: 30px; /* Adjust as needed */
+    text-align: center;
+  }
+  
   
