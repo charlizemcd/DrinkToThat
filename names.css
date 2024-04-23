@@ -18,12 +18,19 @@ body {
      }
 .container1 {
   text-align: center;
+  justify-content: center;
 }
 .container2 {
     text-align: center;
+    justify-content: center;
   }
+
   .container {
     text-align: left;
+  }
+
+  .container2 {
+    margin-top: -40px; /* Adjust as needed */
   }
 
 #buttons {
@@ -59,6 +66,7 @@ img {
 
   .horizontal-stack {
     display: flex; /* Use flexbox layout */
+    justify-content: center;
   }
   
   .spacer {
@@ -67,20 +75,6 @@ img {
 
   .spacer2 {
     height: 40px;
-  }
-
-  .spacer3 {
-    width: 50px;
-    display: inline-block; 
-  }
-
-  .spacer4 {
-    width: 475px;
-    display: inline-block; 
-  }
-  .spacer5 {
-    width: 360px;
-    display: inline-block; 
   }
 
 
@@ -97,7 +91,71 @@ img {
     text-align: center;
     font-size: 25px;
   }
+
   .big-button {
     font-size: 40px; /* Adjust as needed */
   }
+
+  /* Popup styles */
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.popup-content {
+  background-color: #ffff;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+  color: black;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Align items horizontally */
+}
+.button-container button {
+  margin: 1px 0; /* Adjust margin as needed */
+}
+
+/* Add styles for individual buttons if needed */
+
   
+
+  @media only screen and (max-width: 768px) {
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 40%;
+      height: auto;
+    }
+
+
+
+  }
+
