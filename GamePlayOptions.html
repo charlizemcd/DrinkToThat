@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gameplay Options</title>
+    <style>
+        body {
+            background-color: #4d0014;
+            color: white;
+            font-family: Montserrat, sans-serif;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .title {
+            font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+  margin-bottom: 20px;
+        }
+        .toggle {
+            margin: 10px 0;
+        }
+        .button {
+            background-color: transparent;
+            color: white;
+            font-size: 20px;
+            font-weight: medium;
+            padding: 10px 20px;
+            text-decoration: none;
+            border: none;
+        }
+        .button:hover {
+            background-color: white;
+            color: #4d0014;
+            transition: background-color 0.3s, color 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Gameplay Options</h1>
+        <label class="toggle">
+            <input type="checkbox" id="playForPoints">
+            Play For Points
+        </label>
+        <button class="button" onclick="nextAction()">Next</button>
+    </div>
+    <script>
+        function nextAction() {
+            var playForPointsChecked = document.getElementById('playForPoints').checked;
+            if (playForPointsChecked) {
+                // Navigate to next page for adding players
+                window.location.href = '/Users/user/Downloads/Drink To That HTML 1/Names Gameplay/addnames.html';
+            } else {
+                // Navigate to next page for gameplay
+                window.location.href = 'NoNameGamePlay.html';
+            }
+        }
+    </script>
+</body>
+</html>

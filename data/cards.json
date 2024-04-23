@@ -1,0 +1,18 @@
+[
+{
+    "image": "/Users/user/Downloads/Drink To That HTML 1/assets/general-1.png",
+    "name": "general-1"
+},
+{
+    "image": "../assets/general-2.png",
+    "name": "general-2"
+},
+{
+    "image": "../assets/general-3.png",
+    "name": "general-3"
+},
+{
+    "image": "../assets/general-4.png",
+    "name": "general-4"
+}
+]

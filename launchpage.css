@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    background-color: #4d0014;
+}
+
+.luckiest-guy-regular {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+   }
+
+
+button {
+    
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #000;
+}
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* Example usage with font weight customization */
+.montserrat-bold {
+    font-weight: bold;
+}
+.montserrat-normal {
+    font-weight: normal;
+}
+.montserrat-light {
+    font-weight: lighter;
+}
+
+body {
+    line-height: 2;
+}
+
+input[type="text"] {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 200px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: none;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+}
+button:hover {
+    background-color: #0000;
+}
