@@ -16,29 +16,28 @@
 </head>
 <body>
   <div class="container1">
-    <div class="horizontal-stack">
-      <button class="luckiest-guy-regular big-button" onclick="window.location.href = 'index.html';">Drink To That</button>
+       <div class="button-container">
+    <button class="luckiest-guy-regular big-button" onclick="window.location.href = '/Users/user/Downloads/Drink To That HTML 1/index.html';">Drink To That</button>
+    <button id="popupButton">Scores</button>
+  </div>
+    <div id="popup" class="popup">
+      <div class="popup-content">
+        <span class="close">&times;</span>
+        <p>Player Scores</p>
+        <div id="players">
+          <!-- Player information will be displayed here -->
+        </div class >
+      </div>
     </div>
-    </div>
-    <div class="spacer2"></div>
+    
+    
     <div id="currentPlayer"></div>
     <div class="horizontal-stack">
-        <div class="spacer"></div>
-        <div class="spacer3"></div>
         <img id="displayedImage" src="/assets/general/general-1.png" alt="Displayed Image">
-        <div class="spacer3"></div>
         <div id="players">
             <!-- Player information will be displayed here -->
           </div class >
-          <div class="spacer3"></div>
       </div>
-    <div class="container2">
-      <div class="horizontal-stack">
-        <div class="spacer4"></div>
-        <button class="button montserrat montserrat-normal" onclick="skipImage()">Skip</button>
-        <button class="button montserrat montserrat-normal" onclick="randomImage()">Next</button>
-      </div>
-    </div>
       <div class="container3">
     <div id="players">
       <!-- Player buttons will be displayed here -->
@@ -47,7 +46,15 @@
         <!-- Player buttons will be displayed here -->
       </div>
     </div>
+    <div class="container2">
+      <div class="horizontal-stack">
+        <button class="button montserrat montserrat-normal" onclick="skipImage()">Skip</button>
+        <button class="button montserrat montserrat-normal" onclick="randomImage()">Next</button>
+      </div>
+    </div>
   </div>
+  <div class="spacer2"></div>
+  <div class="spacer2"></div>
   <script src="names.js"></script>
 </body>
 </html>
