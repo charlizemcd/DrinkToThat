@@ -30,15 +30,24 @@ body {
     padding: 5px;
   }
   
-  button {
+ button {
     padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
+    font-size: 18px;
+    background-color: black;
+    color: #fff;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+    
   }
   
   button:hover {
     background-color: #0056b3;
   }
+
+  .spacer {
+    height: 40px;
+  }
+
   
