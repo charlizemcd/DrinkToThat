@@ -43,6 +43,12 @@ body {
     text-align: center;
   }
 
+.container2 {
+     display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center;
+}
+
 
   @media only screen and (max-width: 768px) {
     img {
