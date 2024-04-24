@@ -42,5 +42,17 @@ body {
     font-size: 30px; /* Adjust as needed */
     text-align: center;
   }
-  
+
+
+  @media only screen and (max-width: 768px) {
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 40%;
+      height: auto;
+    }
+
+
+
+  }
   
