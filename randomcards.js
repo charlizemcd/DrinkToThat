@@ -1,5 +1,6 @@
 // Define the array of images
 const images = [
+  //general
     '/assets/general/general-2.png',
     '/assets/general/general-3.png',
     '/assets/general/general-4.png',
@@ -28,17 +29,35 @@ const images = [
     '/assets/general/general-27.png',
     '/assets/general/general-28.png',
     '/assets/general/general-29.png',
+  //NSFW
     '/assets/NSFW/NSFW-1.png',
     '/assets/NSFW/NSFW-2.png',
     '/assets/NSFW/NSFW-4.png',
     '/assets/NSFW/NSFW-5.png',
     '/assets/NSFW/NSFW-6.png',
     '/assets/NSFW/NSFW-7.png',
+  //voting
     '/assets/voting/voting-1.png',
     '/assets/voting/voting-2.png',
     '/assets/voting/voting-3.png',
     '/assets/voting/voting-4.png',
-    '/assets/voting/voting-5.png'
+    '/assets/voting/voting-5.png',
+  //curiosity killed the cat
+    'assets/curiosity killed the cat/curiosity-1.png',
+    'assets/curiosity killed the cat/curiosity-2.png',
+    'assets/curiosity killed the cat/curiosity-3.png',
+    'assets/curiosity killed the cat/curiosity-4.png',
+    'assets/curiosity killed the cat/curiosity-5.png',
+    'assets/curiosity killed the cat/curiosity-6.png',
+    'assets/curiosity killed the cat/curiosity-7.png',
+    'assets/curiosity killed the cat/curiosity-8.png',
+    'assets/curiosity killed the cat/curiosity-9.png',
+  //on the spot
+    'assets/on the spot/onethespot-1.png',
+  //actions
+    'assets/actions/actions-1.png',
+    'assets/actions/actions-2.png',
+    'assets/actions/actions-3.png',
     // Add more image URLs as needed
 ];
 
